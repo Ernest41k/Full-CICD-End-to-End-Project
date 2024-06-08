@@ -1,6 +1,7 @@
 
 variable "key_pair_name" {
     type = string
+    description = "name of key pair"
 }
 
 variable "ami_id" {
