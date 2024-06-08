@@ -6,6 +6,7 @@ variable "key_pair_name" {
 
 variable "ami_id" {
     type = string
+    description = "ami id"
 }
 
 variable "instance_type" {
